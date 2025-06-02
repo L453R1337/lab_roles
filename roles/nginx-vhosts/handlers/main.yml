@@ -1,0 +1,5 @@
+---
+- name: Create sites folders
+  systemd:
+    name: nginx
+    state: restarted
